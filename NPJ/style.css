@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin: 47px 0 178px 42px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    cursor: pointer;
+    color: #17233d;
+    margin-right: 32px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+Img {
+    margin-left: 121px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #161A49;
+    margin-bottom: 47px;
+    width: 582px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #4B505A;
+    margin-bottom: 55px;
+    width: 493px;
+}
+
+.link-principal {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+div {
+    margin: 0;
+}
+
+    h1 {
+        margin: 55px 57px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        width: 268px;
+        display: block;
+        position: static;
+    }
+
+    img {
+        width: 312px;
+        height: 288px;
+        margin: 59px 39px 22px 39px;
+        display: block;
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    header {
+        margin: 0;
+
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        margin: 17px 15px 76px 284px;
+    }
+
+    p {
+margin: 29px 43px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: auto
+    }
+
+    .link-principal {
+        display: block;
+        margin: 26px 139px 59px 139px;
+    }
+
+}

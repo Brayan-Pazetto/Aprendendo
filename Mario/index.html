@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros</title>
+
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="hideform()"></div>
+
+    <div class="header">
+        <img src="./Imgs/logo-header.png" alt="">
+        <a>Home</a>
+        <a onclick="">Nossos serviços</a>
+        <a onclick="showForm()">Fale Conosco</a>
+
+    </div>
+
+    <div class="caixa-mãe">
+
+        <div class="Caixa-texto">
+
+            <img src="./Imgs/logo.png" alt="logo" class="logo-mario">
+            <p>Encanadores Mario & Luigi - resolvendo seusproblemas com estilo</p>
+            <p>Você já se encontrou com alguma situação de emergência com encanamento? Vazamento inesperado, canos
+                entupidos
+                ou
+                torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos para vocês os encanadores mais famosos do reino dos cogumelos - Mario e Luigi!</p>
+            <button onclick="showForm()">Entre em Contato</button>
+
+        </div>
+
+        <div>
+            <img src="./Imgs/mario.png" alt="Mario e Luigi" class="mario-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./Imgs/video.mp4" autoplay muted loop> </video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=5554991835038" class="link-whats">
+        <img src="./Imgs/whatsapp.png" alt="whats">
+    </a>
+
+    <form class="fale-conosco" action="https://formcarry.com/s/JF1UF6_DUKn" method="POST" enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea input placeholder="Seu problema" name="Dúvidas"></textarea>
+        <Button type="submit">Fazer orçamento</Button>
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
