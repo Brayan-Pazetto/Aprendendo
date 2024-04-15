@@ -25,10 +25,10 @@
 
         <label>
             Converter <b>para</b>
-            <select>
-                <option>€ Euro</option>
-                <option>US$ Dólar americano</option>
-
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
             </select>
         </label>
 
@@ -44,15 +44,15 @@
         <div class="currency-box">
             <Img src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
                 <p class="currency">Real</p>
-                <p class="currency-value">R$ 0,00</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
 
         </div>
 
         <img class="arrow" src="./assets/Vector.png" alt="seta">
 
         <div class="currency-box">
-            <Img src="./assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
-                <p class="currency">Dólar</p>
+            <Img src="./assets/estados-unidos (1) 1.png" class="currency-logo" alt="logo-moeda-convertida">
+                <p class="currency" id="currency-name">Dólar</p>
                 <p class="currency-value">US$ 0,00</p>
 
         </div>
