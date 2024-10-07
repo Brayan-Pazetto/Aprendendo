@@ -1,0 +1,21 @@
+{
+  "name": "conceitos-node",
+  "version": "1.0.0",
+  "description": "Básico",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brayan Pazetto",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "express": "^3.21.2",
+    "latest-version": "^9.0.0",
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
