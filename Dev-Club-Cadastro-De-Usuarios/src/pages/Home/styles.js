@@ -66,17 +66,5 @@ font-weight: bold;
 }
 `
 
-export const Button = styled.button`
-border: none;
-background: linear-gradient(180deg, #FE7E5D 0%, #ff6378 100%);
-font-size: 16px;
-color: #fff;
-padding: 16px 32px;
-width: fit-content;
-cursor: pointer;
-border-radius: 20px;
-&:hover {
-    opacity: 0.8;
-}
-`
+
 

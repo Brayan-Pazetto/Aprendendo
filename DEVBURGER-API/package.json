@@ -1,0 +1,23 @@
+{
+  "name": "devburger-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Brayan Pazetto",
+    "url": "https://github.com/Brayan-Pazetto"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "nodemon": "^3.1.7",
+    "sucrase": "^3.35.0"
+  }
+}
